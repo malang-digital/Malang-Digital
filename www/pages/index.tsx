@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import { Typography } from 'antd'
 
 export default function Home() {
   return (
@@ -9,55 +10,8 @@ export default function Home() {
       </Head>
 
       <main>
-        <h1 className="text-blue-500">
-          Welcome to <a href="https://nextjs.org">Next.tsx!</a>
-        </h1>
-
-        <p>
-          Get started by editing{' '}
-          <code>pages/index.tsx</code>
-        </p>
-
-        <div>
-          <a href="https://nextjs.org/docs">
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.tsx features and API.</p>
-          </a>
-
-          <a href="https://nextjs.org/learn">
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.tsx in an interactive course with quizzes!</p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-          
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.tsx projects.</p>
-          </a>
-
-          <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          >
-            <h3>Deploy &rarr;</h3>
-            <p>
-              Instantly deploy your Next.tsx site to a public URL with Vercel.
-            </p>
-          </a>
-        </div>
+        <Typography.Title>Malang Digital</Typography.Title>
       </main>
-
-      <footer>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" />
-        </a>
-      </footer>
     </div>
   )
 }
