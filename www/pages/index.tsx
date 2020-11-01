@@ -10,7 +10,7 @@ export default function Home() {
       </Head>
 
       <main>
-        <Typography.Title>Malang Digital</Typography.Title>
+        <Typography.Title className="text-red-500">Malang Digital</Typography.Title>
       </main>
     </div>
   )
